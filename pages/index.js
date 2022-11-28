@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          GUÍA DE  <b>CONFIDENTES</b>
+          GUÍA DE <b>CONFIDENTES</b>
         </h1>
 
         {/* <p className={styles.description}>
