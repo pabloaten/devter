@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,44 +14,98 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          GUÍA DE  <b>CONFIDENTES</b>
         </h1>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
-        </p>
-
+        </p> */}
+<br/>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Makoto-Niijima.webp?w=1156&ssl=1"/>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+         <Link href="/haru">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Haru-Okumura.webp?w=1106&ssl=1"/>
+           
+          </Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <Link href="/yusuke">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Yusuke-Kitawa.webp?w=1119&ssl=1"/>
+           
+          </Link>
+          <Link href="/ann">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Ann-Takamaki.webp?w=1104&ssl=1"/>
+           
+            </Link>
+      <Link href="/sojiro">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Sojiro-Sakura.webp?w=1156&ssl=1"/>
+           
+            </Link>
+          <a href="" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Ryuji-Sakamoto.webp?w=1103&ssl=1"/>
+           
           </a>
+          <Link href="/akechi" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Goro-Akechi.webp?w=1105&ssl=1"/>
+           
+          </Link>
+          <Link href="/futaba" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Futaba-Sakura.webp?w=1223&ssl=1"/>
+           
+          </Link>
+          <Link href="/adivina" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Chihaya-Mifune.webp?w=1086&ssl=1"/>
+           
+            </Link>
+          <Link href="/gemelas" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-guia-de-confidente-Caroline-y-Justine.webp?w=1104&ssl=1"/>
+           
+            </Link>
+          <Link href="/iwai" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Iwai-Munehisa.webp?w=1104&ssl=1"/>
+           
+          </Link>
+          <Link href="/maestra" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Sadayo-Kawakami.webp?w=1154&ssl=1"/>
+           
+          </Link>
+          <Link href="/medica" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Tae-Takami.webp?w=1097&ssl=1"/>
+           
+            </Link>
+          <Link href="/oya" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-guia-de-confidente-Ohya-Ichiko.webp?w=1105&ssl=1"/>
+           
+          </Link>
+          <Link href="/togo" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Hifumi-Togo.webp?w=1085&ssl=1"/>
+           
+          </Link>
+          <Link href="/orador" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Toranosuke-Yoshida.webp?w=1082&ssl=1"/>
+           
+          </Link>
+          <Link href="/yoshizawa" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Kasumi-Yoshizawa.webp?w=1139&ssl=1"/>
+           
+          </Link>
+          <Link href="/psicologo" >
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Takuto-Maruki.webp?w=1144&ssl=1"/>
+           
+            </Link>
+         <Link href="/nino">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Shinya-Oda.webp?w=1195&ssl=1"/>
+           
+            </Link>
+            <Link href="/mishima">
+            <img className={styles.card} src="https://i0.wp.com/www.solojugadores.com/wp-content/uploads/2022/11/Persona-5-Royal-guia-de-confidente-Yuuki-Mishima.webp?w=1084&ssl=1"/>
+           
+          </Link>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        
         </div>
       </main>
 
@@ -60,10 +115,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Powered by{' Pablo '}
+          
         </a>
       </footer>
     </div>
